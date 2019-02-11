@@ -1,0 +1,184 @@
+*,*:after,*:before
+{
+    margin: 0;
+    padding: 0;
+  
+
+  }
+.clearfix{
+    clear:both;
+}
+body{
+    font-family: tahoma;
+
+	}
+.container{
+    width:1170px;
+    margin: auto;
+}
+/*section conrad*/
+section.header{
+    width:100%;
+    height:700px;
+    color:#fff;
+    background-image:url(../images/img-bg-01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+section.header header{
+padding-top: 20px;
+
+}
+.header{
+    width: 100%;
+    height: 75px;
+    left:0;
+    top:0;
+    padding-left:3%;
+}
+section.header .logo{
+    
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+section.header nav {
+   
+    float: right;
+
+}
+section.header nav ul li{
+    
+   display: inline-block;
+    margin-left: 20px;
+}
+section.header nav ul li a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+section.header nav ul input[type="button"]{
+	border-radius: 20px;
+    padding: 9px 23px 9px 30px;
+    text-align: center;
+    margin-left: 28px;
+    background: #efcc07;
+    border: 0;
+    font-weight: bold;
+}
+/*para*/
+.para{
+width:100%;
+top:50%;
+left:50%;
+transform: translate(50,-50);
+margin-top: 200px;
+margin-left: 100px;
+
+}
+.para h1{
+	font-size: 90px;
+	font-weight: bold;
+}
+.para p{
+	color:#efcc07;
+	font-size: 30px;
+	margin-left: 100px;
+}
+.para span{
+	color:#8d7e2e;
+	font-size: 20px;
+	margin-left: 300px;
+}
+section.header button.train{
+	background-color: gold;
+    border: 0;
+    border-radius: 57px;
+    padding: 2px 87px 5px 69px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: -182px;
+    left: 311px;
+    cursor: pointer;
+    font-weight: 20px;
+}
+section.header p.text-block{
+	position: relative;
+    bottom: -182px;
+    left: 325px;
+    cursor: pointer;
+    color:#777;
+    margin-top: 20px;
+}
+/*about-the club*/
+.about-the-club{
+	width:100%;
+	height: 800px;
+}
+.about-the-club h1{
+	color:#ffd700de;
+	font-size: 4em;
+	margin-top: 110px;
+	text-align: center;
+	
+	font-weight: bold;
+}
+.about-the-club p{
+	text-align: center;
+}
+.about-the-club .club{
+	width: 100%;
+	height: 800px;
+	background: #ddd;
+	margin-top: 100px;
+	padding-top:100px;
+
+}
+.about-the-club .club .icons{
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+
+}
+.about-the-club .club .icons .img1{
+padding-top: -6px;
+margin: 18px 58px;
+margin-bottom: 90px;
+}
+.about-the-club .club .icons .img1 .left{
+   width:18%;
+	float: left;
+	margin-bottom: 24px;
+}
+.about-the-club .club .icons .img1 .left img{
+    width: 86px;
+   
+}
+.about-the-club .club .icons .img1 .right{
+	width:70%;
+	float:right;
+}
+ .about-the-club .club .icons .img1 .right h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.about-the-club .club .icons .img1 .right P{
+color: #555;
+    font-size: 13PX;
+    width: 468px;
+    padding: 20px;
+    }
+
+.about-the-club .club .image {
+	width: 50%;
+	float: left;
+}
+.about-the-club .club .image img{
+    width:100%;
+}
