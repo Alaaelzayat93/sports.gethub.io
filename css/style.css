@@ -1,7 +1,9 @@
+
 *,*:after,*:before
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   
 
   }
@@ -66,7 +68,7 @@ section.header nav ul input[type="button"]{
     padding: 9px 23px 9px 30px;
     text-align: center;
     margin-left: 28px;
-    background: #efcc07;
+    background: #f2bd41;
     border: 0;
     font-weight: bold;
 }
@@ -134,7 +136,7 @@ section.header p.text-block{
 .about-the-club .club{
 	width: 100%;
 	height: 800px;
-	background: #ddd;
+	background: #f4f4f4;
 	margin-top: 100px;
 	padding-top:100px;
 
@@ -145,10 +147,10 @@ section.header p.text-block{
 	margin-top: 20px;
 
 }
-.about-the-club .club .icons .img1{
-padding-top: -6px;
-margin: 18px 58px;
-margin-bottom: 90px;
+.about-the-club .club .icons .img1 {
+display: flex;
+align-items: center;
+margin: 20px 30px;
 }
 .about-the-club .club .icons .img1 .left{
    width:18%;
@@ -156,7 +158,7 @@ margin-bottom: 90px;
 	margin-bottom: 24px;
 }
 .about-the-club .club .icons .img1 .left img{
-    width: 86px;
+    width: 120px;
    
 }
 .about-the-club .club .icons .img1 .right{
@@ -181,4 +183,226 @@ color: #555;
 }
 .about-the-club .club .image img{
     width:100%;
+}
+/*our clients*/
+.our-clients h1{
+    padding-top:40px;
+    text-align: center;
+    margin-top: 60px;
+    color:gold;
+    font-weight: bold;
+}
+
+.our-clients .say{
+    width:100%;
+    height: 500px;
+}
+.our-clients .say .row .feet{
+    width:50%;
+    float:left;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+.our-clients .say .row .feet img{
+    position: relative;
+        top: -80px;
+    left: 37%;
+
+}
+
+.our-clients .say .row .feet em{
+    text-align: center;
+}
+/*pricing*/
+.pricing{
+     
+    
+     width:100%
+    height:800px;
+    overflow:hidden;
+    margin: 0 auto;
+    position:relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricing .row .price{
+    list-style: none;
+    margin-top:20px;
+    width:230px;
+    height:400px;
+    padding: 20px;
+
+}
+.pricing .good{
+    color:gold;
+    font-size:60px;
+    
+    text-align: center;
+}
+.pricing .row{
+    padding-top:60px;
+}
+.pricing .row .col-md-3{
+    
+    background-color: #f4f4f4;
+    
+}
+.pricing .row ul li{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px
+}
+.pricing .row ul .grey{
+    color:#000;
+}
+.pricing .row ul .term{
+    font-size:25px;
+    font-family: tahoma;
+}
+.pricing .row ul .grey span{
+    font-size:4em;
+color:#000;
+font-weight: bold;
+}
+.pricing .row ul li{
+    color: #555;
+    font-family: arial;
+}
+.pricing .row hr{
+    font-weight: bolder;
+    width:50px;
+    margin-left: 80px;
+    background: orange;
+    height: 4px;
+}
+.pricing .row ul .grey span.number{
+        font-size: 4em;
+}
+.pricing .row li p{
+    color:#C2C2CA;
+    width: 222px;
+}
+.pricing .row li .button{
+    background-color:#f4bb49;
+    color:#fff;
+        padding: 10px 5px 10px 20px ;
+    border-radius: 20px;
+
+}
+.pricing .row li.block{
+    margin-top: 20px;
+}
+.pricing .row .black{
+     background-color: #000;
+     color:#fff;
+     padding-top: 20px;
+}
+
+/*show*/
+.show{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #f4f4f4;
+}
+.show img{
+    background-position: center center;
+    height: 500px;
+    width:100%;
+}
+.show .row{
+    margin-top: 40px;
+
+}
+.show .row .col-md-6 h1{
+    color:gold;
+    font-size: 2.5em;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.show .row .col-md-6 input[type=email]{
+    border:0;
+    border-radius: 20px;
+    background: #fff;
+    height: 40px;
+    width:400px;
+    text-align: center;
+    position: relative;
+    margin-right: -26px;
+}
+.show .row .col-md-6 input[type=button]{
+    background: gold;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    padding:10px 40px 10px 20px ;
+    margin-left: 10px;
+    color: #000;
+    font-weight: bold;
+}
+.show hr{
+    color:red;
+    height: 8px;
+    background-color: orange;
+}
+/*footer*/
+.footer{
+    margin-top:50px;
+}
+.footer img{
+    margin-left: 50%;
+}
+.footer hr{
+    height: 4px;
+    background: #ddd;
+    margin-top: 80px;
+}
+.footer button{
+    background-color: gold;
+    border: 0;
+    border-radius: 57px;
+    padding: 2px 87px 5px 69px;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    top:-67px;
+
+    
+
+}
+.footer p.text-block{
+position: relative;
+    top: -42px;
+    left: 582px;
+     color:#555;
+ }
+.footer2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin: 20px;
+}
+.footer2 .row .col-md-6.one{
+    position: relative;
+    left: 48px;
+}
+.footer2 .row .col-md-6.one span{
+    font-size: 14px;
+    color: #ddd;
+}
+.footer2 .row .col-md-6.one h4{
+    font-size: 1em;
+    font-weight: bold;
+}
+.footer2 .row .col-md-6.two{
+    position: relative;
+    left: 400px;
+}
+.footer2 .row .col-md-6.two p{
+    font-size: 3em;
+}
+.footer2 .row .col-md-6 i{
+    border: 1px solid #ddd;
+    padding: 20px;
 }
